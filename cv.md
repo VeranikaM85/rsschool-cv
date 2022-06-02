@@ -23,10 +23,13 @@ I am a beginner UX/UI designer. But now I also want to deepen my knowledge in ht
 
 
 ## **Work experience**
-* *december 2021-present* 
-    **Freelance** UX/UI designer
-* *march 2012-december 2021* 
-    **Main Statistical Office Of The City Of Minsk** Leading specialist
+* ### *december 2021-present* 
+   
+    ### **Freelance** UX/UI designer
+
+* ### *march 2012-december 2021* 
+   
+  ###  **Main Statistical Office Of The City Of Minsk** Leading specialist
  
  
  ## **Education**  
@@ -34,7 +37,7 @@ I am a beginner UX/UI designer. But now I also want to deepen my knowledge in ht
      ### **Educational Institution** Belarussian State University Of Informatics And Radioelectronics
      ### **Speciality** Economic-engineer
 * ### **Level** Training&Mentoring cource
-    ### **Educational Institution** DesignSpot School
+  ### **Educational Institution** DesignSpot School
     ### **Speciality** Interface design basic&UX concept developing
 
 
@@ -45,4 +48,4 @@ I am a beginner UX/UI designer. But now I also want to deepen my knowledge in ht
 
 
 ## **English level**
-### **B1** [EF SET English Certificate](https://www.efset.org/cert/MY82T3)
+* ### **B1** [EF SET English Certificate](https://www.efset.org/cert/MY82T3)
