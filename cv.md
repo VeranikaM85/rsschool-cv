@@ -34,7 +34,7 @@
    Leading specialist
  
  
- ## **Education**  
+## **Education** 
  *  **Level** *Highter*
       
       **Educational Institution** *Belarussian State University Of Informatics And Radioelectronics*
