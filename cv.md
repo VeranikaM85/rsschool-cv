@@ -35,7 +35,7 @@
  
  
  ## **Education**  
- *  **Level** *Higher*
+ *  **Level** *Highter*
       
       **Educational Institution** *Belarussian State University Of Informatics And Radioelectronics*
       **Speciality** *Economic-engineer*
