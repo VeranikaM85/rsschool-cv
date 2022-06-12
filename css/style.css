@@ -7,66 +7,50 @@
   }
 .header-container{
     
-    height: 111px;
-    background-color: #E8E4E3;
+  width: 1440px;  
+  height: 111px;
+    background-color: #E5E0DE;
     margin: 0 auto;
+        
     }
- 
+    
 .list {
-    display: inline-block;
+    
     list-style-type: none;
     padding: 0 41px 0 0;
 }
-#profile
+
+.profile
 {
     width: 1440px;
     height: 440px;
-    background-color: #E8E4E3;
     margin: 0 auto;
-
-}
+    
+    background-image: url('../assets/img/Frame71.jpg');
+    background-size: cover;
+    position: absolute;
+    }
+    
 .main-title{
     font: 900 56px Roboto, sans-serif;
     text-transform: uppercase;
     color: #5C5C5C;
-    margin: 111px 310px 273px 521px;
-    position: absolute;
+    padding-left: 521px;
+    padding-top: 50px;
+    
+    
     }
 h2 {
         font: 500 23px Roboto, sans-serif;
         text-transform: uppercase;
         color: #5C5C5C;
-        margin: 197px 380px 217px 521px;
-        position: absolute;
+        padding-left: 521px;
+            
         }
 
 
-.bg2
-{
-    width: 1327px;
-    height: 440px;
-    background-color: #5C5C5C;
-    margin: 0 0 2101px 113px;
-    
-    
-}
 
-.bg3
-{
-    width: 998px;
-    height: 329px;
-    background-color: #F4F2F1;
-    margin: 0 0 111px 329px;
-    
-}
-.bg3-1
-{
-    width: 113px;
-    height: 111px;
-    background-color: #F4F2F2;
-    margin: 329px 1326px 0 0;
-    position: absolute;
-}
+
     
 
  
@@ -74,36 +58,123 @@ h2 {
   {   
     width: 218px;
     height: 218px;
+
     position: absolute;
-    margin: 111px 998px 2212px 224px;
-    }
+    margin-top: 111px;
+    margin-left: 224px;
     
-         
+    
+    }
+     
   
   .nav-list {
-    margin: 42px 80px;
-    
-    
-    display: inline-block;
+    display: inline-flex;   
     list-style-type: none;
-    
+    padding-left: 113px;
+    padding-top: 23px;
     font: 400 22px Roboto, sans-serif;
     text-transform: uppercase;
     color: #5C5C5C;
+    
   }
-  .bg-container
-  {
-    width: 998px;
-    height: 2541px;
-    background-color: #E8E4E3;
-    margin: 0 0 0 442px;
+  h3
+  {background: url('../assets/img/Rectangle23.jpg') no-repeat;
+   padding-left: 62px;
+   font: 900 24px Roboto, sans-serif;
+   text-transform: uppercase;
+   color: #5C5C5C;
+  }
+  .contacts {
+    margin-top: 524px;
+    margin-left: 113px;
     position: absolute;
-}
-.bg-container-2
-{
-  width: 442px;
-  height: 2541px;
-  background-color: #F4F2F2;
-  position: absolute;
-  
   }
+  .li-phone{
+    background: url('../assets/img/Phone.png') no-repeat;
+    height: 36px;
+    margin-top: 26px;
+    padding-left: 62px;
+    padding-top: 4px;
+   font: 500 20px Roboto, sans-serif;
+   
+   color: #5C5C5C;
+   list-style: none;
+  }
+  .li-telegram{
+    background: url('../assets/img/Telegram.png') no-repeat;
+    height: 36px;
+    margin-top: 26px;
+    padding-left: 62px;
+    padding-top: 4px;
+   font: 500 20px Roboto, sans-serif;
+   
+   color: #5C5C5C;
+   list-style: none;
+  }
+  .li-git{
+    background: url('../assets/img/GitHub.png') no-repeat;
+    height: 36px;
+    margin-top: 26px;
+    padding-left: 62px;
+    padding-top: 4px;
+   font: 500 20px Roboto, sans-serif;
+   
+   color: #5C5C5C;
+   list-style: none;
+  }
+  .li-disc{
+    background: url('../assets/img/Discord.png') no-repeat;
+    height: 36px;
+    margin-top: 26px;
+    padding-left: 62px;
+    padding-top: 4px;
+   font: 500 20px Roboto, sans-serif;
+   
+   color: #5C5C5C;
+   list-style: none;
+  }
+  .ul-contacts{
+    padding-top: 10px;
+    padding-left: 0px;
+  }
+ .date{
+  display: inline-flex;
+  list-style-type: none;padding-top: 10px;
+  
+  
+  
+   }
+   .work{
+    margin-top: 524px;
+    margin-left: 442px;
+    position: absolute;
+    padding: 0px;
+   }
+   h4 {
+    width: 278px;
+    
+    
+    text-align: right;
+    font: 700 20px Roboto, sans-serif;
+margin-right: 100px;
+    
+    color: #231918;}
+    h5{
+      
+      text-align: left;
+      font: 700 20px Roboto, sans-serif;
+  margin-right: 100px;
+      
+      color: #5C5C5C;}
+      .pad-l{margin-left: 100px;}
+      .sq{width: 20px;
+      height: 4px;
+      background-color: #5C5C5C;
+    margin-top: 44px;}
+    .text{width: 500px;
+      
+      text-align: left;
+      font: 400 19px Roboto, sans-serif;
+      margin-left: 380px;
+      
+      color: #231918;}
