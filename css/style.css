@@ -43,7 +43,7 @@
 h2 {
         font: 500 23px Roboto, sans-serif;
         text-transform: uppercase;
-        color: #5C5C5C;
+        color: #231918;
         padding-left: 521px;
             
         }
@@ -82,6 +82,7 @@ h2 {
    padding-left: 62px;
    font: 900 24px Roboto, sans-serif;
    text-transform: uppercase;
+   text-size-adjust: 100%;
    color: #5C5C5C;
   }
   .rec-light{background: url('../assets/img/Rectangle24.jpg') no-repeat;}
