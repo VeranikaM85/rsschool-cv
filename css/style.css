@@ -61,7 +61,7 @@ h2 {
 
     position: absolute;
     margin-top: 111px;
-    margin-left: 224px;
+    margin-left: 225px;
     
     
     }
@@ -84,6 +84,7 @@ h2 {
    text-transform: uppercase;
    color: #5C5C5C;
   }
+  .rec-light{background: url('../assets/img/Rectangle24.jpg') no-repeat;}
   .contacts {
     margin-top: 524px;
     margin-left: 113px;
@@ -122,6 +123,20 @@ h2 {
    color: #5C5C5C;
    list-style: none;
   }
+  
+  .bg{
+    background: url('../assets/img/bg.jpg') no-repeat;
+    width: 1440px;
+   
+    padding-top: 80px;
+    margin: 0 auto;
+    
+    
+    background-size: cover;
+    
+  }
+
+
   .li-disc{
     background: url('../assets/img/Discord.png') no-repeat;
     height: 36px;
@@ -137,44 +152,91 @@ h2 {
     padding-top: 10px;
     padding-left: 0px;
   }
+
  .date{
   display: inline-flex;
-  list-style-type: none;padding-top: 10px;
-  
-  
-  
+  list-style-type: none;
+  padding-top: 10px;
+    
    }
    .work{
-    margin-top: 524px;
+    
     margin-left: 442px;
-    position: absolute;
+    
     padding: 0px;
    }
+   .education{
+    
+    margin-left: 442px;
+    
+    padding: 0px;
+   }
+   .about{
+    margin-top: 444px;
+    margin-left: 442px;
+    
+    
+    display: inline-flex;
+    list-style-type: none;
+    padding-top: 0px;
+     }
+     .code{background-color: #5C5C5C;
+      width: 998px;padding: 0 0 20px 0;
+    margin-left: 442px;
+    
+   
+    
+    display: inline-flex;
+    list-style-type: none;
+    padding-top: 0px;
+     
+     }
+     .col{color: #E5E0DE;}
+     
    h4 {
-    width: 278px;
+    width: 248px;
     
     
     text-align: right;
     font: 700 20px Roboto, sans-serif;
-margin-right: 100px;
+margin-right: 100px;margin-left: 30px;
     
-    color: #231918;}
+    color: #5C5C5C;}
     h5{
-      
+      width: 180px;
       text-align: left;
       font: 700 20px Roboto, sans-serif;
   margin-right: 100px;
       
       color: #5C5C5C;}
       .pad-l{margin-left: 100px;}
+      .pad-t{margin-top: 16px;}
+      .pad-e{margin-bottom: 10px;}
+      .pad-r{margin-right: 54px;}
+      .pad-t-1{padding-top: 6px;}
+      .pad-t-2{margin-top: -26px;}
       .sq{width: 20px;
       height: 4px;
       background-color: #5C5C5C;
     margin-top: 44px;}
-    .text{width: 500px;
+    .text{width: 520px;
       
       text-align: left;
       font: 400 19px Roboto, sans-serif;
       margin-left: 380px;
       
       color: #231918;}
+      .text-1{width: 520px;padding-top: 24px;
+      
+        text-align: left;
+        font: 400 19px Roboto, sans-serif;
+        margin-left: 198px;
+        
+        color: #231918;}
+        .text-col{width: 520px;padding-top: 24px;
+      
+          text-align: left;
+          font: 400 19px Roboto, sans-serif;
+          margin-left: 198px;
+          
+          color: #E5E0DE;}
