@@ -156,7 +156,7 @@ h2 {
  .date{
   display: inline-flex;
   list-style-type: none;
-  padding-top: 10px;text-align: center;
+  padding-top: 10px;
     
    }
    .work{
@@ -194,12 +194,12 @@ h2 {
      .col{color: #E5E0DE;}
      
    h4 {
-    width: 278px;
+    width: 248px;
     
     
     text-align: right;
     font: 700 20px Roboto, sans-serif;
-margin-right: 100px;
+margin-right: 100px;margin-left: 30px;
     
     color: #5C5C5C;}
     h5{
@@ -210,10 +210,11 @@ margin-right: 100px;
       
       color: #5C5C5C;}
       .pad-l{margin-left: 100px;}
-      .pad-t{margin-top: 14px;}
+      .pad-t{margin-top: 16px;}
       .pad-e{margin-bottom: 10px;}
       .pad-r{margin-right: 54px;}
       .pad-t-1{padding-top: 6px;}
+      .pad-t-2{margin-top: -26px;}
       .sq{width: 20px;
       height: 4px;
       background-color: #5C5C5C;
