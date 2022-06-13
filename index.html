@@ -13,42 +13,69 @@
     </head>
     <body>
       <header class="container header-container">
-        <nav>
+        <nav class="nav">
         <ul class="nav-list">   
-         <li class="list">Work experiance</li>
-         <li class="list">Education</li>
-         <li class="list">About me</li>
+         <li class="list"><a href="#about" class="link-1">About me</a></li>
+         <li class="list"><a href="#contacts" class="link-1">Contacts</a></li>
+         <li class="list"><a href="#work" class="link-1">Work experience</a></li>
+         <li class="list"><a href="#skills" class="link-1">Skills</a></li>
+         <li class="list"><a href="#code" class="link-1">Code</a></li>
+         <li class="list"><a href="#lang" class="link-1">Language</a></li>
+         <li class="list"><a href="#education" class="link-1">Education</a></li>
+         <li class="list"><a href="#project" class="link-1">Project</a></li>
         </ui> 
        </nav>    
       </header>
     <main class="container">
-  <section class="profile">
+  <section id="profile">
     <img class="img-avatar" src="assets/img/photoava.jpg" alt="my photo" > 
         <h1 class="main-title">Veranika Maruchok                            
         </h1>
         <h2>UX|UI DESIGNER & BEGINNER FRONTEND DEVELOPER
         </h2>
    </section>
-  <section class="contacts">
+  <section id="contacts">
         <h3>contacts
         </h3>
         <ul class="ul-contacts">
           <li class="li-phone">+375 (29) 253 54 38</li>
-          <li class="li-telegram">+375 (29) 253 54 38</li>
-          <li class="li-git">+375 (29) 253 54 38</li>
-          <li class="li-disc">+375 (29) 253 54 38</li>
+          <li class="li-telegram">@Veranika</li>
+          <li class="li-git">VeranikaM85</li>
+          <li class="li-disc">Veronika(@VeranikaM85)</li>
         </ul>
-  </section>
+  </section> 
+  <section id="skills">
+    <h3>skills
+    </h3>
+    <ul class="ul-skills">
+      <li class="li-done">UX Research</li>
+      <li class="li-done">Prototyping</li>
+      <li class="li-done">Visual Design</li>
+      <li class="li-done">Responsive</li>
+      <li class="li-done">Presentation</li>
+      <li class="li-done">HTML</li>
+      <li class="li-done">CSS</li>
+    </ul>
+</section>
+<section id="lang">
+  <h3>language
+  </h3>
+  <ul class="ul-lang">
+    <li class="li-lang">English B1</li>
+      </ul>
+</section>
   <div class="bg">
-  <section class="about">
+  <section id="about">
        <h3>about me
        </h3>
-        <div class="text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+        <div class="text-1">Hi, my name is Veronica! I am UX/UI designer and beginner frondend developer. I just recently started my way in this field 
+          of activity. But I already understand that by using 
+          UX/UI design we can make our dynamic life more comfortable and brighter!
         </div>
   </section>
   </div>
 <div class="bg">
-  <section class="work">
+  <section id="work">
     <h3>work experience
     </h3>
     <div>
@@ -61,30 +88,34 @@
         </div>
         <h5 class="pad-l">2021-current
         </h5></div>
-        <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+        <div class="text">I did educational projects - a mobile application for singers (according to IOS guidelines), a service for menu planning (desktop version), highly loaded interfaces and several landing pages.
         </div>
         <div class="pad-t"></div>
         <div class="date">
-          <h4 class="pad-t-1">Main Statistical Office Of Minsk
+          <h4 class="pad-t-1">Main Statistical Office Of The Ciy Of Minsk
           </h4>
-          <h5>General specialist</h5>
+          <h5>Leading specialist</h5>
         <div class="sq"></div>
           <h5 class="pad-l">2009-2021</h5></div>
-        <div class="text pad-t-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+        <div class="text pad-t-2">Tasks included - monitoring reports, advising respondents, conducting workshops, responsibility for certain statistical forms, writing policy briefs, and analyzing data.
         </div>
   </div>
     </section>
   </div>
 <div class="bg">
-<section class="code">
+<section id="code">
   <h3 class="pad-r col rec-light">code
   </h3>
-  <div class="text-col">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-  </div>
+    <div class="text-col">
+    <code>
+      <pre>
+const square = (num) => {
+return num * num;
+};</pre></code></div>
 </section>
 </div>
 <div class="bg">
-<section class="education">
+<section id="education">
   <h3>education
   </h3>
 <div>
@@ -98,13 +129,30 @@
         <div class="date">
           <h4 class="pad-t-1">Belarussian State University Informatics And Radioelectronics
             </h4>
-          <h5>General specialist</h5>
+          <h5>Economic-engineer</h5>
           <div class="sq"></div>
           <h5 class="pad-l">2005-2009</h5>
         </div>
 </div>
 </section>
 </div> 
+<div class="bg-1">
+  <section id="project">
+       <h3>project
+       </h3>
+        <div class="text-1">I don't have any projects yet. <a href="#profile" class="link-1">Only this CV.</a>
+        </div>
+  </section>
+  </div>
     </main>  
+    <footer class="container footer-container">
+    <a href="https://rs.school/js/">
+      <img class="logo" src="assets/svg/rs_school_js.svg" alt="logo" >
+    </a>
+      <p class="foot">2022</p>
+      <p class="foot"><a href="https://github.com/VeranikaM85" class="link-1">My GitHub
+        </a>
+      </p>
+  </footer>
     </body> 
 </html>

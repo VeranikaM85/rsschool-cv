@@ -9,7 +9,7 @@
     
   width: 1440px;  
   height: 111px;
-    background-color: #E5E0DE;
+    background-color: #E8E4E3;
     margin: 0 auto;
         
     }
@@ -20,7 +20,7 @@
     padding: 0 41px 0 0;
 }
 
-.profile
+#profile
 {
     width: 1440px;
     height: 440px;
@@ -86,8 +86,8 @@ h2 {
    color: #5C5C5C;
   }
   .rec-light{background: url('../assets/img/Rectangle24.jpg') no-repeat;}
-  .contacts {
-    margin-top: 524px;
+  #contacts {
+    margin-top: 534px;
     margin-left: 113px;
     position: absolute;
   }
@@ -129,7 +129,7 @@ h2 {
     background: url('../assets/img/bg.jpg') no-repeat;
     width: 1440px;
    
-    padding-top: 80px;
+    padding-top: 90px;
     margin: 0 auto;
     
     
@@ -152,6 +152,7 @@ h2 {
   .ul-contacts{
     padding-top: 10px;
     padding-left: 0px;
+    width: 400px;
   }
 
  .date{
@@ -160,19 +161,19 @@ h2 {
   padding-top: 10px;
     
    }
-   .work{
+   #work{
     
     margin-left: 442px;
     
     padding: 0px;
    }
-   .education{
+   #education{
     
     margin-left: 442px;
     
     padding: 0px;
    }
-   .about{
+   #about{
     margin-top: 444px;
     margin-left: 442px;
     
@@ -181,15 +182,15 @@ h2 {
     list-style-type: none;
     padding-top: 0px;
      }
-     .code{background-color: #5C5C5C;
-      width: 998px;padding: 0 0 20px 0;
+     #code{background-color: #5C5C5C;
+      width: 998px;padding: 10px 0 25px 0;
     margin-left: 442px;
     
    
     
     display: inline-flex;
     list-style-type: none;
-    padding-top: 0px;
+    
      
      }
      .col{color: #E5E0DE;}
@@ -234,10 +235,111 @@ margin-right: 100px;margin-left: 30px;
         margin-left: 198px;
         
         color: #231918;}
-        .text-col{width: 520px;padding-top: 24px;
+        .text-col{width: 520px;padding-top: 8px;
       
           text-align: left;
           font: 400 19px Roboto, sans-serif;
           margin-left: 198px;
           
           color: #E5E0DE;}
+        #skills {
+            margin-top: 960px;
+            margin-left: 113px;
+            position: absolute;
+          }
+          .ul-skills{
+            padding-top: 10px;
+            padding-left: 0px;
+          }
+          .li-done{
+            background: url('../assets/img/Done.png') no-repeat;
+            height: 36px;
+            margin-top: 26px;
+            padding-left: 62px;
+            padding-top: 4px;
+           font: 500 20px Roboto, sans-serif;
+           
+           color: #5C5C5C;
+           list-style: none;
+          }
+          #lang {
+            margin-top: 1550px;
+            margin-left: 113px;
+            position: absolute;
+          }
+          .ul-lang{
+            padding-top: 10px;
+            padding-left: 0px;
+          }
+          .li-lang{
+            background: url('../assets/img/GreatBritain.png') no-repeat;
+            height: 36px;
+            margin-top: 26px;
+            padding-left: 62px;
+            padding-top: 4px;
+           font: 500 20px Roboto, sans-serif;
+           
+           color: #5C5C5C;
+           list-style: none;
+          }
+          #project{
+                margin-left: 442px;
+            
+            
+            display: inline-flex;
+            list-style-type: none;
+            padding-top: 0px;
+             }
+             .bg-1{
+              background: url('../assets/img/bg.jpg') no-repeat;
+              width: 1440px;
+             
+              padding-top: 50px;
+              margin: 0 auto;
+              
+              
+              background-size: cover;
+              
+            }
+            body{display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+            background-color: #FAFAFA;}
+              html {
+                scroll-behavior: smooth; 
+              }
+ .link{
+  color: #231918;
+  transition: color 0.5s;
+}
+.link:hover{color: #828282;}
+.nav-link {
+  transition: .3s;
+}
+.link-1{text-decoration: none;
+  color: #7a7a7a;
+  transition: color 0.5s;
+}
+.link-1:hover{color: #c5c4c4;}
+.nav-link {
+  transition: .3s;
+}
+nav{
+  display: flex;
+ 
+  align-items: center;
+ 
+}
+.logo{width: 140px;
+margin-top: 14px;
+margin-left: 113px;}
+.foot{font: 900 23px Roboto, sans-serif;
+  margin-left: 460px;margin-top: 40px;
+  text-transform: uppercase;
+  color: #231918;}
+ .footer-container{display: flex;width: 1440px;  
+    height: 111px;border: 1px;
+      background-color: #E8E4E3;
+      margin: 0 auto;
+    justify-content:flex-start;
+    align-items: center;}
