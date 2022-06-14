@@ -113,12 +113,23 @@ h2 {
    color: #5C5C5C;
    list-style: none;
   }
+  .li-beh{
+    background: url('../assets/img/Behance.png') no-repeat;
+    height: 36px;
+    margin-top: 26px;
+    padding-left: 62px;
+    padding-top: 6px;
+   font: 500 20px Roboto, sans-serif;
+   
+   color: #5C5C5C;
+   list-style: none;
+  }
   .li-git{
     background: url('../assets/img/GitHub.png') no-repeat;
     height: 36px;
     margin-top: 26px;
     padding-left: 62px;
-    padding-top: 4px;
+    padding-top: 6px;
    font: 500 20px Roboto, sans-serif;
    
    color: #5C5C5C;
@@ -243,7 +254,12 @@ margin-right: 100px;margin-left: 30px;
           
           color: #E5E0DE;}
         #skills {
-            margin-top: 960px;
+            margin-top: 938px;
+            margin-left: 113px;
+            position: absolute;
+          }
+          #tools {
+            margin-top: 1698px;
             margin-left: 113px;
             position: absolute;
           }
@@ -263,7 +279,7 @@ margin-right: 100px;margin-left: 30px;
            list-style: none;
           }
           #lang {
-            margin-top: 1550px;
+            margin-top: 1466px;
             margin-left: 113px;
             position: absolute;
           }
@@ -284,9 +300,8 @@ margin-right: 100px;margin-left: 30px;
           }
           #project{
                 margin-left: 442px;
-            
-            
-            display: inline-flex;
+                margin-bottom: 78px;
+                 display: inline-flex;
             list-style-type: none;
             padding-top: 0px;
              }
